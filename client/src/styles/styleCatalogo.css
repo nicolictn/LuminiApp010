@@ -1,0 +1,112 @@
+
+/*BARRA DE PESQUISA*/
+.margin_32px {
+  margin-bottom: 10px;
+}
+
+.barra_pesquisa {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 3%;
+}
+
+.barra_pesquisa input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  outline: 0;
+  font-size: 15px;
+  width: 100%;
+  background-color: #D0EFEF;
+}
+
+.barra_pesquisa span {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.barra_pesquisa img {
+  width: 25px;
+  height: 20px;
+}
+
+/*BACKGROUND CATALOGO*/
+.background_Catalogo img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.background_Catalogo {
+  padding: 3%;
+}
+
+/*SECTION LIVROS*/
+h1 {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.section_painelLivros {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  overflow: hidden;
+}
+.container_painelLivros {
+  padding: 3%;
+}
+
+.section_painelLivros img {
+  width: 87px;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.351);
+  border-radius: 2px;
+}
+
+.section_painelLivros figure figcaption {
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-top: 4px;
+  
+}
+
+.section_painelLivros a {
+  text-decoration: none;
+}
+
+/*FOOTER*/
+.container-footer {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0);
+    height: 7%;
+    width: 100%;
+    max-width: 400px;
+}
+
+/*FOOTER*/
+footer p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 10px;
+  margin: 10px;
+}
+
+
+/*MENU_VERTICAL*/
+
+.menu_vertical {
+  height: 100%;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}

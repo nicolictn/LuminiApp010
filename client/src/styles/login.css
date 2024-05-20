@@ -1,0 +1,104 @@
+body{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    transition: .5s all;
+}
+a:visited{
+    color: #5872c6;
+}
+.criarConta small a:hover{
+    color: #FF5757;
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url("/src/imgs/telaInicial.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 400px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container_app{
+    position: relative;
+    top: 40%;
+    background: transparent;
+    height: 50%;
+    max-width: 400px;
+    object-fit: cover;
+    width: 100%;
+    padding: 15%;
+}
+
+.titulo{
+    margin-bottom: 30px;
+    color: #58C6C4;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container_app .container_form input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    background: #8F8E8E;
+    border: 1px solid #8F8E8E;  
+    padding: 5px 0px;
+    border-radius: 5px;
+    margin:7px 0px ;
+    outline: 0;
+    color: #FFf;
+    font-size: 17px;
+    transition: .5s all;
+}
+
+.container_app .container_form input:hover{
+    background-color: #FFf;
+    color: black;
+}
+
+
+.container_app .container_form button{
+   position: relative;
+   top: 0;
+   left: 50%;
+   transform: translate(-50%,0);
+   max-width: 100px;
+   width: 100%;
+   background-color: #FF5757;
+   border: 1px solid #FF5757;
+   padding: 10px 0px;
+   border-radius: 5px;
+   margin: 5% 0px;
+   color: #FFf;
+   font-weight: 700;
+   transition: .5s all;
+}
+
+.container_app .container_form button:hover{
+    color:#FF5757;
+    background-color: white;
+}
+
+.criarConta {
+    font-weight: 300;
+    font-size: 12px;
+   text-align: center;
+   margin-top: 1.5rem;
+   margin-bottom: 0.9rem;
+}
+

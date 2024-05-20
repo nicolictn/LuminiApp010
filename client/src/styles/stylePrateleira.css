@@ -1,0 +1,77 @@
+.bg_prateleira {
+    width: 400px;
+}
+
+#container_prateleira {
+    margin: 28px 12px 0 12px;
+    max-width: 100%;
+    max-height: 100%;
+    /* border: 1px solid red; */
+}
+
+.section_prateleira__livro {
+    padding: 0 0 44px 12px;
+}
+
+.section_prateleira__infos01 {
+    position: fixed;
+    left: 40%;
+    top: 15%;
+}
+
+.section_prateleira__infos02 {
+    position: fixed;
+    left: 40%;
+    top: 44%;
+}
+
+.section_prateleira__livro h2 {
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.section_prateleira__livro p {
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+
+.section_prateleira_infos__expLeitura {
+    margin-top: 32px;
+    color: rgb(118, 118, 118);
+}
+
+.section_prateleira_infos__expLeitura02 {
+    margin-top: 55px;
+    color: rgb(118, 118, 118);
+}
+
+.size_12 > p {
+    font-size: 8px;
+}
+
+.section_prateleira__livro img {
+    width: 120px;
+    border: 1.5px solid black;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.192);
+}
+
+/*BARRA PROGRESSO*/
+.container_barra_progresso {
+    height: 12px;
+    width: 200px;
+    background-color: #CCC;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.container_barra_progresso .progress-barra{
+   position: absolute;
+   height: 100%;
+   background-color: #94D8D8;
+   animation: progress-animation 5s infinite;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; } 
+    24% { width: 24%}
+}

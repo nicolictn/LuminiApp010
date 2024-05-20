@@ -1,0 +1,74 @@
+.bg_prateleira {
+    width: 400px;
+}
+
+.container_BoasVindas {
+    width: 85%;
+    font-weight: 600;
+    text-align: center;
+    margin: 32px auto;
+    padding: 16px;
+    line-height: 22px;
+    border: 5px solid transparent;
+    box-shadow: 8px 8px rgba(72, 72, 72, 0.104);
+    border-image: linear-gradient(to right, rgb(254, 132, 236), rgb(2, 211, 2), yellow, rgb(255, 178, 35), rgb(255, 59, 59)) 5;
+}
+
+.icon_jogos {
+    width: 100px;
+    border: 2px solid rgba(255, 230, 0, 0.833);
+    border-radius: 60%;
+}
+
+.alter_img {
+    width: 100px;
+    height: 100px;
+}
+
+.container_jogos {
+    margin-top: 45px;
+}
+
+.container_jogos_esquerda__padding {
+    padding-bottom: 56px;
+}
+.container_jogos_esquerda {
+    width: 100%;
+    max-width: 350px;
+    /* margin: 0 auto; */
+    position: fixed;
+    left: 40px;
+    /* border: 1px solid; */
+
+}
+
+.container_jogos_esquerda h2 {
+    font-weight: bold;
+    font-size: 14px;
+    /* border: 1px solid red; */
+    margin-top: 8px;
+}
+
+.container_jogos_direita {
+    position: fixed;
+    left: 240px;
+}
+
+.container_jogos_direita h2 {
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: bold;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+
+/*HOVER*/
+
+.container_hover:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+     
+}
+
+

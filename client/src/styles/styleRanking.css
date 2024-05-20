@@ -1,0 +1,89 @@
+img {
+    width: 250px;
+}
+
+.bg_prateleira {
+    width: 400px;
+}
+
+.img_bg_ranking {
+    margin-top: 32px;
+    /* border: 1px solid red; */
+}
+
+.img_bg_ranking img {
+    display: flex;
+    width: 280px;
+    height: 160px;
+    margin: auto;
+    border: 2px solid rgb(216, 181, 4);
+}
+
+.container_conquistas {
+    margin-top: 16px;
+}
+
+.container_conquistas h1 {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.icons_conquistas {
+    width: 70px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(90, 154, 145, 0.467);
+    border-radius: 8%;
+    padding: 10px;
+}
+
+.container_conquistas__unico {
+    margin: 24px 0 0 24px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.container_conquistas__unico h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.container_conquistas__unico p {
+    color: rgba(0, 0, 0, 0.597);
+}
+
+.icons_conquistas__infos {
+    font-size: 12px;
+    margin-top: 6px;
+    position: fixed;
+    left: 110px;
+}
+
+.space_between {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    font-size: 10px;
+}
+
+/*BARRA PROGRESSO*/
+.container_barra_progresso {
+    height: 12px;
+    width: 250px;
+    background-color: #CCC;
+    position: relative;
+}
+
+.container_barra_progresso .progress-barra{
+   position: absolute;
+   height: 100%;
+   background-color: #94D8D8;
+   animation: progress-animation 5s infinite;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; } 
+    50% { width: 50%}
+}
